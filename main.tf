@@ -3,7 +3,7 @@ resource "aws_instance" "ec2-server" {
     instance_type = var.instancetype
 
     tags = {
-      Name = "Icomo12"
+      Name = "Terraform-Jenkins"
     }
   
 }
